@@ -2,6 +2,8 @@
 
 using namespace std;
 
+int add(int a, int b);
+
 int main()
 {
     cout << "Greetings.....\n";
@@ -9,4 +11,9 @@ int main()
 
     int z = 7;
     return 0;
+}
+
+int add(int a, int b)
+{
+    return a + b;
 }
